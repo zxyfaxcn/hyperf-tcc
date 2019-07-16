@@ -1,0 +1,16 @@
+{
+    "name": "zcmzc/hyperf-tcc",
+    "description": "A",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "hyperf/db-connection": "~1.0.0",
+        "hyperf/di": "~1.0.0",
+        "hyperf/utils": "~1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hyperf\\Tcc\\": "src/"
+        }
+    }
+}
